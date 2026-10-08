@@ -23,7 +23,7 @@ export const PartnersSection: React.FC<PartnersSectionProps> = ({ onPartnerInqui
             Companies & Organizations We Have Worked With
           </h2>
           <p className="mt-3 text-sm sm:text-base text-slate-600">
-            NextUs is trusted by forward-thinking organizations to fulfill specialized tech recruitment needs, from high-caliber software engineering to agile deployment teams.
+            NextUs is trusted by forward-thinking organizations to connect with specialized tech talent, from high-caliber software engineering to agile deployment teams.
           </p>
         </div>
 
@@ -36,7 +36,7 @@ export const PartnersSection: React.FC<PartnersSectionProps> = ({ onPartnerInqui
               <div className="lg:col-span-7">
                 <div className="flex items-center gap-2 text-xs font-semibold text-blue-400 mb-3 tracking-wide">
                   <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse" />
-                  <span>Featured Hiring Partner</span>
+                  <span>Featured Industry Partner</span>
                   <span aria-hidden="true">·</span>
                   <span>{highlightedPartner.location}</span>
                 </div>
@@ -98,11 +98,11 @@ export const PartnersSection: React.FC<PartnersSectionProps> = ({ onPartnerInqui
           </div>
         )}
 
-        {/* Previous Placement & Client Associations */}
+        {/* Previous Partner & Client Associations */}
         <div className="mt-12">
           <div className="flex items-center justify-between mb-6">
             <h3 className="text-base sm:text-lg font-bold text-slate-900">
-              Previous Placement & Client Associations
+              Previous Partner & Client Associations
             </h3>
             <span className="text-xs text-slate-500">
               Continuously expanding enterprise network
@@ -145,7 +145,7 @@ export const PartnersSection: React.FC<PartnersSectionProps> = ({ onPartnerInqui
                 </div>
 
                 <div className="mt-5 pt-3 border-t border-slate-200/60 text-right">
-                  <span className="text-[11px] font-medium text-slate-400">Verified Placement Partner</span>
+                  <span className="text-[11px] font-medium text-slate-400">Verified Partner</span>
                 </div>
               </div>
             ))}
@@ -158,7 +158,7 @@ export const PartnersSection: React.FC<PartnersSectionProps> = ({ onPartnerInqui
                 </div>
                 <h4 className="text-lg font-bold text-slate-900">Your Company Here</h4>
                 <p className="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
-                  Join Urvah Dynamics, Viswam Edutech, and Radiant. Get pre-evaluated candidates delivered directly to your technical pipeline.
+                  Join Urvah Dynamics, Viswam Edutech, and Radiant. Get pre-evaluated candidates connected directly with your team.
                 </p>
               </div>
 
@@ -167,7 +167,7 @@ export const PartnersSection: React.FC<PartnersSectionProps> = ({ onPartnerInqui
                   onClick={onPartnerInquiry}
                   className="w-full py-2.5 px-4 text-xs font-semibold text-white bg-slate-900 hover:bg-blue-600 rounded-lg transition-colors flex items-center justify-center gap-1.5"
                 >
-                  <span>Request Hiring Consultation</span>
+                  <span>Request Talent Consultation</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </button>
               </div>

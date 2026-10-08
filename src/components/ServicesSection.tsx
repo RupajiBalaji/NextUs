@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SERVICES, RecruitmentService } from '../data/companyData';
+import { SERVICES, TalentService } from '../data/companyData';
 import { 
   Code2, 
   GraduationCap, 
@@ -8,8 +8,8 @@ import {
   Briefcase, 
   School, 
   Compass, 
-  ArrowRight,
-  Check
+  ArrowRight, 
+  Check 
 } from 'lucide-react';
 
 interface ServicesSectionProps {
@@ -17,11 +17,11 @@ interface ServicesSectionProps {
 }
 
 const serviceIcons: Record<string, React.ElementType> = {
-  'it-talent-recruitment': Code2,
-  'student-graduate-placement': GraduationCap,
+  'tech-talent-matching': Code2,
+  'student-career-launch': GraduationCap,
   'candidate-screening': ShieldCheck,
   'talent-matching': Sparkles,
-  'company-hiring-support': Briefcase,
+  'talent-partner-support': Briefcase,
   'educational-institutional-connect': School,
   'career-opportunities-freshers': Compass,
 };
@@ -41,17 +41,17 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-12 border-b border-slate-200">
           <div>
             <div className="text-xs font-semibold text-blue-600 uppercase tracking-wider mb-2">
-              Capabilities & Practice Areas
+              Capabilities & Focus Areas
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 tracking-tight">
               What NextUs Does
             </h2>
             <p className="mt-3 text-sm sm:text-base text-slate-600 max-w-2xl">
-              Specialized services designed to resolve the IT talent equation for high-growth tech companies and ambitious career starters.
+              Dedicated pathways and evaluations designed to help the right talent reach the right position for modern tech teams and ambitious professionals.
             </p>
           </div>
 
-          {/* Interactive Filter Control (Zero-Pill compliant button segment) */}
+          {/* Interactive Filter Control */}
           <div className="flex items-center gap-1 p-1 bg-white border border-slate-200 rounded-lg shrink-0 self-start md:self-auto">
             {(['All', 'Companies', 'Candidates'] as const).map((tab) => (
               <button
@@ -63,7 +63,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
                     : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'
                 }`}
               >
-                {tab === 'All' ? 'All Services (7)' : tab === 'Companies' ? 'For Employers' : 'For Candidates'}
+                {tab === 'All' ? 'All Areas (7)' : tab === 'Companies' ? 'For Companies' : 'For Candidates'}
               </button>
             ))}
           </div>
@@ -71,9 +71,9 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
 
         {/* Services Bento Grid */}
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredServices.map((service: RecruitmentService) => {
+          {filteredServices.map((service: TalentService) => {
             const Icon = serviceIcons[service.id] || Code2;
-            const isMarquee = service.id === 'it-talent-recruitment' || service.id === 'student-graduate-placement';
+            const isMarquee = service.id === 'tech-talent-matching' || service.id === 'student-career-launch';
 
             return (
               <div
@@ -87,7 +87,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
                   <div className="flex items-center justify-between text-xs text-slate-400 font-mono mb-4">
                     <span className="font-bold text-slate-500">{service.number}.</span>
                     <span className="text-[11px] font-sans font-medium text-slate-500">
-                      {service.audience === 'Both' ? 'Employers & Candidates' : service.audience === 'Companies' ? 'For Employers' : 'For Candidates'}
+                      {service.audience === 'Both' ? 'Companies & Candidates' : service.audience === 'Companies' ? 'For Companies' : 'For Candidates'}
                     </span>
                   </div>
 

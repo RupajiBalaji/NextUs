@@ -8,12 +8,12 @@ export const AboutSection: React.FC = () => {
   const pillars = [
     {
       title: 'Deep Requirement Understanding',
-      desc: 'We invest time with founders, hiring managers, and candidates to map exact technical skills, work cultures, and long-term goals.',
+      desc: 'We invest time with founders, engineering leads, and candidates to map exact technical skills, team cultures, and long-term goals.',
       icon: Target,
     },
     {
       title: 'Precision Over Volume',
-      desc: 'Rather than flooding HR inboxes with random resumes, we introduce only 2–3 meticulously vetted candidates who fit like a glove.',
+      desc: 'Rather than flooding team inboxes with random profiles, we introduce only 2–3 meticulously evaluated candidates who fit like a glove.',
       icon: Layers,
     },
     {
@@ -37,10 +37,10 @@ export const AboutSection: React.FC = () => {
             About NextUs · Branch of {COMPANY_INFO.parentCompany}
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 tracking-tight leading-tight">
-            Recruitment Built on Purpose, Not Just Vacancy Filling
+            Connecting the Right Talent with the Right Position
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
-            NextUs was established with a singular vision: to replace transactional headhunting with genuine talent alignment. We understand that hiring is not merely about ticking boxes on a job description—it is about unlocking potential on both sides.
+            NextUs was established with a singular vision: to eliminate mismatches by connecting top talent directly to where they can thrive. We believe finding the right opportunity is not merely about ticking boxes on a job description—it is about unlocking true potential on both sides.
           </p>
         </div>
 
@@ -74,7 +74,7 @@ export const AboutSection: React.FC = () => {
             <div className="relative rounded-2xl overflow-hidden border border-slate-200 bg-slate-100 shadow-md">
               <img
                 src={mentorshipImg}
-                alt="NextUs career counseling and student placement mentorship"
+                alt="NextUs career guidance and student talent mentorship"
                 referrerPolicy="no-referrer"
                 className="w-full h-[360px] object-cover"
                 onError={(e) => {
@@ -93,9 +93,9 @@ export const AboutSection: React.FC = () => {
           {/* Right Column: The 4 Pillars */}
           <div className="lg:col-span-7 order-1 lg:order-2 space-y-6">
             <div className="space-y-1">
-              <h3 className="text-lg font-bold text-slate-900">How NextUs Approaches Recruitment</h3>
+              <h3 className="text-lg font-bold text-slate-900">How NextUs Connects Talent & Opportunities</h3>
               <p className="text-sm text-slate-500">
-                Our methodology protects both employer productivity and candidate morale.
+                Our methodology ensures long-term alignment for both companies and candidates.
               </p>
             </div>
 

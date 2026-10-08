@@ -28,7 +28,7 @@ export const SuccessStoriesSection: React.FC<SuccessStoriesSectionProps> = ({ on
               Student Feedback & Success Stories
             </h2>
             <p className="mt-3 text-sm sm:text-base text-slate-600 max-w-2xl">
-              Hear directly from candidates who transformed their technical preparation into high-impact careers through NextUs placement support.
+              Hear directly from candidates who transformed their technical preparation into high-impact careers through NextUs guidance and support.
             </p>
           </div>
 
@@ -58,7 +58,7 @@ export const SuccessStoriesSection: React.FC<SuccessStoriesSectionProps> = ({ on
               className="p-6 rounded-2xl bg-white border border-slate-200/90 hover:border-blue-400 hover:shadow-md transition-all flex flex-col justify-between"
             >
               <div>
-                {/* Header: Student Info & Placed As Lockup */}
+                {/* Header: Student Info & Role Lockup */}
                 <div className="flex items-start gap-3.5 mb-4">
                   <div
                     className={`w-11 h-11 rounded-xl ${story.avatarBg} text-white font-bold text-sm flex items-center justify-center shrink-0 shadow-xs`}
@@ -72,7 +72,7 @@ export const SuccessStoriesSection: React.FC<SuccessStoriesSectionProps> = ({ on
                     <div className="text-xs text-slate-600 font-medium mt-0.5 flex items-center gap-1">
                       <Briefcase className="w-3.5 h-3.5 text-blue-600 shrink-0" />
                       <span>
-                        Placed as <strong className="text-slate-900 font-semibold">{story.role}</strong>
+                        Working as <strong className="text-slate-900 font-semibold">{story.role}</strong>
                       </span>
                     </div>
                     <div className="text-xs text-slate-500 flex items-center gap-1 mt-0.5">
@@ -124,7 +124,7 @@ export const SuccessStoriesSection: React.FC<SuccessStoriesSectionProps> = ({ on
 
         {/* Verification Footnote */}
         <div className="mt-8 text-center text-xs text-slate-500">
-          All placements are independently verified through hiring client records at NextUs (Alt.f, Begumpet, Hyderabad).
+          All career milestones are independently verified through partner records at NextUs (Alt.f, Begumpet, Hyderabad).
         </div>
       </div>
     </section>

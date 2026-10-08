@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight, Building2, GraduationCap, CheckCircle2 } from 'lucide-react';
 import { COMPANY_INFO } from '../data/companyData';
-import heroImg from '../assets/images/hero_it_recruitment_1791457213344.jpg';
+import heroImg from '../assets/images/hero_talent_showcase.jpg';
 import { NextUsLogo } from './NextUsLogo';
 
 interface HeroProps {
@@ -41,7 +41,7 @@ export const Hero: React.FC<HeroProps> = ({ onSelectRole, onContactClick }) => {
             </h1>
 
             <p className="mt-5 text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl">
-              NextUs connects students and job seekers with fulfilling career pathways, while empowering tech companies to hire precisely pre-screened talent without friction.
+              NextUs bridges ambitious candidates and students with their ideal career pathways, while empowering tech companies to connect with thoroughly evaluated talent without friction.
             </p>
 
             {/* Dual Core Value Anchor */}
@@ -52,7 +52,7 @@ export const Hero: React.FC<HeroProps> = ({ onSelectRole, onContactClick }) => {
                 </div>
                 <div>
                   <h2 className="text-sm font-semibold text-slate-900">For Students & Job Seekers</h2>
-                  <p className="text-xs text-slate-500 mt-0.5">Direct interview pipelines, technical mentoring, and vetted placements.</p>
+                  <p className="text-xs text-slate-500 mt-0.5">Direct interview pipelines, technical mentoring, and career opportunities.</p>
                 </div>
               </div>
 
@@ -61,8 +61,8 @@ export const Hero: React.FC<HeroProps> = ({ onSelectRole, onContactClick }) => {
                   <Building2 className="w-5 h-5" />
                 </div>
                 <div>
-                  <h2 className="text-sm font-semibold text-slate-900">For Hiring Companies</h2>
-                  <p className="text-xs text-slate-500 mt-0.5">Screened engineering talent aligned with your exact tech stack & culture.</p>
+                  <h2 className="text-sm font-semibold text-slate-900">For Companies & Teams</h2>
+                  <p className="text-xs text-slate-500 mt-0.5">Pre-evaluated engineering talent aligned with your exact tech stack & culture.</p>
                 </div>
               </div>
             </div>
@@ -82,7 +82,7 @@ export const Hero: React.FC<HeroProps> = ({ onSelectRole, onContactClick }) => {
                 className="px-5 py-3 text-sm font-medium text-slate-700 bg-white hover:bg-slate-50 border border-slate-300 rounded-lg transition-colors flex items-center gap-2"
               >
                 <Building2 className="w-4 h-4 text-blue-600" />
-                <span>Hire Tech Talent</span>
+                <span>Find Tech Talent</span>
               </button>
 
               <button
@@ -106,7 +106,7 @@ export const Hero: React.FC<HeroProps> = ({ onSelectRole, onContactClick }) => {
             <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200/80 bg-slate-900 aspect-[16/10] sm:aspect-[16/11]">
               <img
                 src={heroImg}
-                alt="NextUs IT recruitment consultation in Hyderabad"
+                alt="NextUs talent matching consultation in Hyderabad"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center transform hover:scale-102 transition-transform duration-700"
                 onError={(e) => {
@@ -124,10 +124,10 @@ export const Hero: React.FC<HeroProps> = ({ onSelectRole, onContactClick }) => {
 
               <div className="absolute bottom-4 left-4 right-4 text-white">
                 <div className="text-xs uppercase tracking-wider text-blue-300 font-semibold mb-1">
-                  Purpose-Driven Recruitment
+                  Right Talent. Right Position.
                 </div>
                 <div className="text-sm font-medium text-slate-100">
-                  “Connecting the right talent with the right position.”
+                  “Helping the right talent reach the right position.”
                 </div>
                 <div className="text-xs text-slate-300 mt-1 flex items-center gap-3">
                   <span>Based in Alt.f, Begumpet</span>
@@ -140,10 +140,10 @@ export const Hero: React.FC<HeroProps> = ({ onSelectRole, onContactClick }) => {
             {/* Floating Trust Card */}
             <div className="hidden sm:block absolute -bottom-6 -left-6 bg-white rounded-2xl p-4 shadow-xl border border-slate-200/90 max-w-[280px]">
               <NextUsLogo variant="nav" theme="light" className="mb-2 scale-90 origin-left" />
-              <div className="text-[11px] text-slate-500 font-medium">Placement Partners</div>
+              <div className="text-[11px] text-slate-500 font-medium">Industry Partners</div>
               <div className="text-xs font-bold text-slate-900 mt-0.5">Urvah Dynamics · Viswam · Radiant</div>
               <div className="text-[11px] text-emerald-600 mt-1.5 font-semibold flex items-center gap-1">
-                <span>✓ 100% Pre-Screened Candidates</span>
+                <span>✓ 100% Pre-Evaluated Candidates</span>
               </div>
             </div>
           </div>

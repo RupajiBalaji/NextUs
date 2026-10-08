@@ -40,14 +40,14 @@ export const OpportunitiesSection: React.FC<OpportunitiesSectionProps> = ({ onSe
               </h3>
 
               <p className="mt-3 text-sm text-slate-600 leading-relaxed">
-                Submit your details and let NextUs help connect you with relevant opportunities. We evaluate your actual coding skills, match you with hiring tech companies, and mentor you through the placement process.
+                Submit your details and let NextUs help connect you with relevant opportunities. We evaluate your actual coding skills, connect you with forward-thinking tech companies, and mentor you through every step.
               </p>
 
               <div className="mt-6 pt-5 border-t border-slate-200/80 space-y-2.5">
                 {[
-                  'Access to verified IT hiring partners',
+                  'Access to verified tech partner companies',
                   'Mock technical assessment & interview feedback',
-                  'Zero placement fees charged to candidates',
+                  'Zero fees charged to candidates',
                   'Opportunities across frontend, backend, QA & cloud',
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-center gap-2 text-xs text-slate-600">
@@ -77,7 +77,7 @@ export const OpportunitiesSection: React.FC<OpportunitiesSectionProps> = ({ onSe
               </div>
 
               <div className="text-xs font-semibold text-blue-400 tracking-wide uppercase mb-1">
-                For Employers & Hiring Teams
+                For Companies & Engineering Teams
               </div>
 
               <h3 className="text-2xl font-bold text-white">
@@ -85,7 +85,7 @@ export const OpportunitiesSection: React.FC<OpportunitiesSectionProps> = ({ onSe
               </h3>
 
               <p className="mt-3 text-sm text-slate-300 leading-relaxed">
-                Tell us your hiring requirements and our team will help you find suitable candidates. We screen, vet, and deliver ready-to-deploy developers and engineers who fit your team culture and technical bar.
+                Tell us your talent requirements and our team will help you connect with suitable candidates. We evaluate, vet, and introduce ready-to-deploy developers and engineers who fit your team culture and technical bar.
               </p>
 
               <div className="mt-6 pt-5 border-t border-slate-800 space-y-2.5">
@@ -108,7 +108,7 @@ export const OpportunitiesSection: React.FC<OpportunitiesSectionProps> = ({ onSe
                 onClick={() => onSelectRole('Company')}
                 className="w-full py-3 px-5 text-sm font-semibold text-slate-900 bg-white hover:bg-blue-50 hover:text-blue-700 rounded-xl transition-all shadow-xs flex items-center justify-center gap-2"
               >
-                <span>Share Hiring Requirements</span>
+                <span>Share Talent Requirements</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </button>
             </div>

@@ -168,7 +168,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
     const cc = 'jpyadav.bomma@gmail.com';
     const subject = encodeURIComponent(`NextUs Inquiry: ${formData.name} (${formData.userType})`);
     const body = encodeURIComponent(
-      `Hello NextUs Recruitment,\n\nName: ${formData.name}\nRole/Category: ${formData.userType}\nPhone: ${formData.phone}\nEmail: ${formData.email}\n\nDetails:\n${formData.message}\n\nSubmitted via NextUs Company Website`
+      `Hello NextUs Team,\n\nName: ${formData.name}\nRole/Category: ${formData.userType}\nPhone: ${formData.phone}\nEmail: ${formData.email}\n\nDetails:\n${formData.message}\n\nSubmitted via NextUs Company Website`
     );
     return `mailto:${to}?cc=${cc}&subject=${subject}&body=${body}`;
   };
@@ -431,7 +431,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                         placeholder={
                           formData.userType === 'Student'
                             ? 'e.g. B.Tech CSE (2025) · Full Stack React / Java'
-                            : 'e.g. Urvah Dynamics · Hiring 3 Frontend & 2 Backend Engineers'
+                            : 'e.g. Urvah Dynamics · Looking for 3 Frontend & 2 Backend Engineers'
                         }
                         className="w-full px-4 py-2.5 text-sm rounded-xl border border-slate-300 bg-slate-50/50 focus:bg-white focus:border-blue-600 transition-all outline-none focus:ring-2 focus:ring-blue-500/20"
                       />
@@ -451,7 +451,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                           placeholder={
                             formData.userType === 'Student'
                               ? 'Tell us about your background, primary technical skills, and what kind of IT roles you are seeking...'
-                              : 'Describe your hiring timeline, required tech stack proficiency, experience band, and team expectations...'
+                              : 'Describe your talent timeline, required tech stack proficiency, experience band, and team expectations...'
                           }
                           className={`w-full px-4 py-2.5 text-sm rounded-xl border bg-slate-50/50 focus:bg-white transition-all outline-none focus:ring-2 focus:ring-blue-500/20 resize-y ${
                             errors.message ? 'border-rose-400 focus:border-rose-500' : 'border-slate-300 focus:border-blue-600'
@@ -475,7 +475,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                       ) : (
                         <>
                           <Send className="w-4 h-4" />
-                          <span>Submit {formData.userType === 'Student' ? 'Candidate Application' : 'Hiring Requirement'}</span>
+                          <span>Submit {formData.userType === 'Student' ? 'Candidate Profile' : 'Talent Requirement'}</span>
                         </>
                       )}
                     </button>

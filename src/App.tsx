@@ -56,12 +56,12 @@ export default function App() {
         <ServicesSection onSelectService={handleSelectService} />
 
         {/* 4. Companies / Organizations We Have Worked With */}
-        <PartnersSection onPartnerInquiry={() => scrollToContact('Company', 'Hiring partnership inquiry for our organization.')} />
+        <PartnersSection onPartnerInquiry={() => scrollToContact('Company', 'Partnership inquiry for our organization.')} />
 
         {/* 5. Student Feedback & Success Stories */}
-        <SuccessStoriesSection onStudentInquiry={() => scrollToContact('Student', 'Seeking entry-level IT opportunities & placement assistance.')} />
+        <SuccessStoriesSection onStudentInquiry={() => scrollToContact('Student', 'Seeking entry-level IT opportunities and career guidance.')} />
 
-        {/* 6. Recruitment / Opportunity Section */}
+        {/* 6. Opportunities Section */}
         <OpportunitiesSection onSelectRole={(role) => scrollToContact(role)} />
 
         {/* 7. Contact Section */}

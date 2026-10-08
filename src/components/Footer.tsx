@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
             </div>
 
             <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
-              {COMPANY_INFO.category} based in Hyderabad, India. Dedicated to helping the right talent reach the right position through rigorous technical assessment and employer alignment.
+              Based in Hyderabad, India. Dedicated to helping the right talent reach the right position through rigorous technical evaluation and company alignment.
             </p>
 
             <div className="pt-2 text-xs text-slate-400 italic">
@@ -37,16 +37,16 @@ export const Footer: React.FC = () => {
                 <a href="#about" className="hover:text-white transition-colors">About NextUs</a>
               </li>
               <li>
-                <a href="#services" className="hover:text-white transition-colors">Recruitment Services</a>
+                <a href="#services" className="hover:text-white transition-colors">Capabilities & Services</a>
               </li>
               <li>
-                <a href="#partners" className="hover:text-white transition-colors">Hiring Partners (Urvah Dynamics, Radiant)</a>
+                <a href="#partners" className="hover:text-white transition-colors">Partner Companies (Urvah Dynamics, Radiant)</a>
               </li>
               <li>
                 <a href="#success-stories" className="hover:text-white transition-colors">Student Success Stories</a>
               </li>
               <li>
-                <a href="#opportunities" className="hover:text-white transition-colors">Candidate & Employer Opportunities</a>
+                <a href="#opportunities" className="hover:text-white transition-colors">Candidate & Company Opportunities</a>
               </li>
               <li>
                 <a href="#contact" className="hover:text-white transition-colors">Contact Founders</a>

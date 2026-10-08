@@ -1,6 +1,6 @@
 {
-  "name": "NextUs - IT Recruitment Firm",
-  "description": "NextUs is an IT recruitment firm and a branch of SwapNow Private Limited, connecting students and job seekers with the right career opportunities and helping companies hire skilled tech talent.",
+  "name": "NextUs - Right Talent. Right Position.",
+  "description": "NextUs is a branch of SwapNow Private Limited dedicated to helping the right talent reach the right position, connecting skilled tech talent with forward-thinking companies.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
