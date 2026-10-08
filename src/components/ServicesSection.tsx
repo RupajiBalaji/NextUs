@@ -47,7 +47,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
               What NextUs Does
             </h2>
             <p className="mt-3 text-sm sm:text-base text-slate-600 max-w-2xl">
-              Dedicated pathways and evaluations designed to help the right talent reach the right position for modern tech teams and ambitious professionals.
+              Dedicated pathways and evaluations designed to help the right talent to be in the right position for modern tech teams and ambitious professionals.
             </p>
           </div>
 

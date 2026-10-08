@@ -37,7 +37,7 @@ export const AboutSection: React.FC = () => {
             About NextUs · Branch of {COMPANY_INFO.parentCompany}
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 tracking-tight leading-tight">
-            Connecting the Right Talent with the Right Position
+            Helping the Right Talent to be in the Right Position
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
             NextUs was established with a singular vision: to eliminate mismatches by connecting top talent directly to where they can thrive. We believe finding the right opportunity is not merely about ticking boxes on a job description—it is about unlocking true potential on both sides.

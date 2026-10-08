@@ -37,7 +37,7 @@ export const Hero: React.FC<HeroProps> = ({ onSelectRole, onContactClick }) => {
 
             {/* Core Message Prominent Headline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-bold text-slate-900 tracking-tight leading-[1.15] text-balance">
-              Helping the right talent reach the <span className="text-blue-600">right position.</span>
+              Helping the right talent to be in the <span className="text-blue-600">right position.</span>
             </h1>
 
             <p className="mt-5 text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl">
@@ -127,7 +127,7 @@ export const Hero: React.FC<HeroProps> = ({ onSelectRole, onContactClick }) => {
                   Right Talent. Right Position.
                 </div>
                 <div className="text-sm font-medium text-slate-100">
-                  “Helping the right talent reach the right position.”
+                  “Helping the right talent to be in the right position.”
                 </div>
                 <div className="text-xs text-slate-300 mt-1 flex items-center gap-3">
                   <span>Based in Alt.f, Begumpet</span>

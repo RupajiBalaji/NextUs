@@ -47,7 +47,7 @@ export interface LeaderContact {
 export const COMPANY_INFO = {
   name: 'NextUs',
   parentCompany: 'SwapNow Private Limited',
-  tagline: 'Helping the right talent reach the right position.',
+  tagline: 'Helping the right talent to be in the right position.',
   subTagline: 'Right Talent. Right Position. Right Opportunity.',
   category: 'Talent Alignment & Career Platform',
   headquarters: {
@@ -58,7 +58,7 @@ export const COMPANY_INFO = {
     country: 'India',
     mapsUrl: 'https://maps.google.com/?q=Alt.f+Begumpet+Hyderabad',
   },
-  mission: 'To eliminate the mismatch in the tech talent ecosystem by helping the right talent reach the right position through thorough evaluation of skills, aspirations, and team culture.',
+  mission: 'To eliminate the mismatch in the tech talent ecosystem by helping the right talent to be in the right position through thorough evaluation of skills, aspirations, and team culture.',
 };
 
 export const LEADERSHIP: LeaderContact[] = [

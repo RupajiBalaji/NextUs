@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
             </div>
 
             <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
-              Based in Hyderabad, India. Dedicated to helping the right talent reach the right position through rigorous technical evaluation and company alignment.
+              Based in Hyderabad, India. Dedicated to helping the right talent to be in the right position through rigorous technical evaluation and company alignment.
             </p>
 
             <div className="pt-2 text-xs text-slate-400 italic">
